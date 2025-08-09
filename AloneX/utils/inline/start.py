@@ -34,9 +34,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_7"], callback_data="gib_source"),
-            InlineKeyboardButton(
-                       text="˹ 𝐎ᴡɴᴇʀ ˼", user_id=config.OWNER_ID
-                    ),
+            #InlineKeyboardButton(text="˹ 𝐎ᴡɴᴇʀ ˼", user_id=config.OWNER_ID),
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
